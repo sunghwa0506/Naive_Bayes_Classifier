@@ -2,12 +2,12 @@
 
  
 
-# The goal of this assignment is to learn about the Naive Bayes Classifier (NBC).   
+The goal of this assignment is to learn about the Naive Bayes Classifier (NBC).   
+You will post a complete assignment using Jupyter notebook in your homepage and submit to Canvas. 
+For this homework, you are not allowed to use any library because NBC is very easy to implement. 
+We will use text dataset about the movie review. Your goal is predicting the sentiment.  
+http://ai.stanford.edu/~amaas/data/sentiment/ (Links to an external site.)
 
-# You will post a complete assignment using Jupyter notebook in your homepage and submit to Canvas. 
-# For this homework, you are not allowed to use any library because NBC is very easy to implement. 
-# We will use text dataset about the movie review. Your goal is predicting the sentiment.  
-# http://ai.stanford.edu/~amaas/data/sentiment/ (Links to an external site.)
 # Below is the process.
 ## 1. Divide the dataset as train, development and test. 
 ## 2. Build a vocabulary as list. 
