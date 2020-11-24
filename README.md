@@ -12,15 +12,15 @@
 ## 1. Divide the dataset as train, development and test. 
 ## 2. Build a vocabulary as list. 
 ### a.[‘the’ ‘I’ ‘happy’ … ] 
-### b.You may omit rare words for example if the occurrence is less than five times
-### c.A reverse index as the key value might be handy
-### d.{“the”: 0, “I”:1, “happy”:2 , … }
+#### You may omit rare words for example if the occurrence is less than five times
+### b.A reverse index as the key value might be handy
+#### {“the”: 0, “I”:1, “happy”:2 , … }
 
 ## 3.Calculate the following probability
 ### Probability of the occurrence
-### P[“the”] = num of documents containing ‘the’ / num of all documents
+#### P[“the”] = num of documents containing ‘the’ / num of all documents
 ### Conditional probability based on the sentiment
-### P[“the” | Positive]  = # of positive documents containing “the” / num of all positive review documents
+#### P[“the” | Positive]  = # of positive documents containing “the” / num of all positive review documents
 ## 4.Calculate accuracy using dev dataset 
 ### Conduct five fold cross validation
 ## 5.Do following experiments
